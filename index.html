@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> My to-do list</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfPAEIY-M_guCExS_Ad3NXty2ijK3ip6M&callback=initMap">
+	</script>
+	<script src="main.js" defer></script>
+
+
+</head>
+
+<body>
+	<header>
+	</header>
+	<div class="field">
+		<input id="enterinput" type="text" placeholder="Enter your to do items"> &nbsp;
+		<button type="button" class="btn btn-primary" id="enter">Add Item</button>
+	</div>
+	<div>
+		<ul>
+		</ul>
+	</div>
+
+	<div id="localstorage">
+	</div>
+
+	<section>
+		<h3>Google Maps</h3>
+		<p id="location"></p>
+		<div id="map"></div>
+	</section>
+
+</body>
+
+</html>

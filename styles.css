@@ -1,0 +1,74 @@
+header {
+	text-align: center;
+	font-family: roboto;
+	color: white;
+	background-color: #33a0ff;
+	border: 2px solid #33a0ff;
+	border-radius: 100px;
+	margin-top: 0.5%;
+}
+
+
+.field {
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+input[type=text] {
+	height: 50px;
+	width: 50%;
+	text-align: center;
+
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+}
+
+
+
+li:not(:last-child) {
+	margin-bottom: 2%;
+}
+
+
+
+.delete {
+	display: inline-block;
+	position: absolute;
+	font-weight: 400;
+	left: 80%;
+	text-align: center;
+	white-space: nowrap;
+	border: 1px solid transparent;
+	background-color: #007bff;
+	border-color: #007bff;
+	color: #fff;
+	user-select: none;
+	border-radius: 0.25rem;
+	transition: color 0.25s;
+	height: 35px;
+	width: 10%;
+	outline: none;
+
+}
+
+#localstorage {
+	text-align: center;
+	box-sizing: border-box;
+	width: 50%;
+	border: 5px solid #33a0ff;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+}
+
+#map {
+	height: 400px;
+	width: 500;
+}
